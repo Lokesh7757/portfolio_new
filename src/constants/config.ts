@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Lokesh Khankari",
-p: ["I Build Scalable Web Applications", "and Responsive User Interfaces"]  },
+p: ["Ideate Create Release."]  },
   contact: {
     p: "Get in touch",
     h2: "Contact.",
@@ -77,8 +77,8 @@ p: ["I Build Scalable Web Applications", "and Responsive User Interfaces"]  },
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "My Personal",
+      h2: "Blogs.",
     },
     works: {
       p: "My work",

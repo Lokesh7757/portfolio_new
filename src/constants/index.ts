@@ -232,20 +232,20 @@ const projects: TProject[] = [
     websiteLink: "https://nealife.in/" ,
   },
   {
-    name: "Job IT",
+    name: "Edict",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Node",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Postman",
         color: "pink-text-gradient",
       },
     ],
@@ -254,26 +254,92 @@ const projects: TProject[] = [
     websiteLink: "",
   },
   {
-    name: "Trip Guide",
+    name: "Paintlib",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Node",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Postman",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/",
     websiteLink: "",
+  },
+    {
+    name: "Vrukshathon",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "Html+CSS+PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL+PhpMyAdmin",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hostinger",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    sourceCodeLink: "",
+    websiteLink: "https://www.vrukshathon.com/",
+  },
+    {
+    name: "Ishika Farms",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "EcommerceWebsite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hostinger",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    sourceCodeLink: "",
+    websiteLink: "https://ishkafarms.com/",
+  },
+      {
+    name: "Diya Fresh",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Admin-Panel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hostinger",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    sourceCodeLink: "",
+    websiteLink: "https://diyaafresh.com/",
   },
 ];
 
