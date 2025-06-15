@@ -22,16 +22,16 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   meta,
   starbucks,
-  tesla,
-  shopify,
+  // tesla,
+  // shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  // threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Developer",
     icon: creator,
   },
 ];
@@ -90,7 +90,7 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Angular",
     icon: redux,
   },
   {
@@ -105,77 +105,80 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences: TExperience[] = [
-  {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+{
+  title: "Software Developer Intern",
+  companyName: "Proser Digital Solutions",
+  icon: starbucks,
+  iconBg: "#383E56",
+  date: "December 2024 – Present",
+  points: [
+    "Developed and optimized backend systems using Node.js, Express.js, and MongoDB for efficient API integration and data handling.",
+    "Built responsive frontend modules using Angular.js and React.js, enhancing user experience and UI performance.",
+    "Managed AWS infrastructure including EC2, S3, and Lambda for scalable cloud deployment.",
+    "Collaborated in Agile teams using tools like Jira, Bitbucket, and Postman to deliver high-quality software solutions."
+  ],
+},
+
+  // {
+  //   title: "React Native Developer",
+  //   companyName: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   companyName: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+{
+  title: "Full Stack Developer",
+  companyName: "Freelancer",
+  icon: meta, // Replace with the actual icon reference if available
+  iconBg: "#E6DEDD",
+  date: "April 2023 – Present",
+  points: [
+    "Designed and developed full-stack web applications using Node.js, Express.js, React.js, and Angular.js.",
+    "Completed dynamic freelance projects such as Paintlib, Edict App, NeaLife, MyVisCards, and Wanderlog.",
+    "Built PHP-based platforms like Vrukshathon (with admin), Vkasa, and Cotation Manager, optimizing backend workflows.",
+    "Developed static websites using HTML, CSS, and JavaScript including Construction and Buidling Wesbites.",
+    "Delivered customized WordPress sites such as Borcells Solar and Ecommerce, focusing on SEO and responsiveness.",
+    "Integrated RESTful APIs, managed databases using MongoDB and MySQL, and deployed projects to AWS and other cloud platforms.",
+  ],
+}
 ];
 
 const testimonials: TTestimonial[] = [
@@ -207,25 +210,26 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Nealife",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A feature-rich Angular web app for healthcare solutions with dynamic API rendering, responsive layout, and scalable component architecture.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS 3",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "", 
+    websiteLink: "https://nealife.in/" ,
   },
   {
     name: "Job IT",
@@ -247,6 +251,7 @@ const projects: TProject[] = [
     ],
     image: jobit,
     sourceCodeLink: "https://github.com/",
+    websiteLink: "",
   },
   {
     name: "Trip Guide",
@@ -268,6 +273,7 @@ const projects: TProject[] = [
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/",
+    websiteLink: "",
   },
 ];
 
