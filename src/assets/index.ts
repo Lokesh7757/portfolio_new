@@ -30,6 +30,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import edict from "./tech/Edict.png";
+import vrukshthon from "./vrukshthon.png";
+import diya from "./diya.png";
+import ishka from "./ishka.png";
+import pal from "./pal.png";
 
 export {
   logo,
@@ -60,5 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
-  websitelink
+  edict,
+  vrukshthon,
+  websitelink,
+  diya,
+  ishka,
+  pal,
 };

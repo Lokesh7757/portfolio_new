@@ -29,9 +29,14 @@ import {
   // tesla,
   // shopify,
   carrent,
-  jobit,
   tripguide,
+  edict,
+  vrukshthon,
+  diya,
   // threejs,
+  ishka,
+  pal,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -184,27 +189,31 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Building ‘Paintlib’ taught me how important seamless UI/UX and backend integration are for real-world e-commerce platforms. From user login to final checkout, each step matters.",
+    name: "Lokesh Khankari",
+    designation: "Intern",
+    company: "Proser Digital Solutions",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Handling multiple freelance clients helped me master time management, communication, and scalable coding practices. Here's how I keep all my projects in sync.",
+    name: "Lokesh Khankari",
+    designation: "Freelance Developer",
+    company: "Freelancer"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "While working on Edict, I discovered how automating document flows can dramatically improve efficiency for professionals like CAs and consultants. Automation is the future",
+    name: "Lokesh Khankari",
+    designation: "Ass. Software Developer",
+    company: "Proser Digital Solutions",
+  },
+  {
+    testimonial:
+      "Building Nealife was a unique experience where psychology met technology, project taught me the value of user-centered design and performance optimization.",
+    name: "Lokesh Khankari",
+    designation: "Ass. Software Developer",
+    company: "Proser Digital Solutions",
   },
 ];
 
@@ -212,135 +221,95 @@ const projects: TProject[] = [
   {
     name: "Nealife",
     description:
-      "A feature-rich Angular web app for healthcare solutions with dynamic API rendering, responsive layout, and scalable component architecture.",
+      "A scalable Angular app offering psychometric and career assessments with API integration, multilingual support, and a responsive layout tailored for a broad and diverse user base.",
     tags: [
-      {
-        name: "Angular",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS 3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
+      { name: "Angular", color: "blue-text-gradient" },
+      { name: "CSS 3", color: "green-text-gradient" },
+      { name: "Bootstrap", color: "pink-text-gradient" },
     ],
     image: carrent,
-    sourceCodeLink: "", 
-    websiteLink: "https://nealife.in/" ,
+    sourceCodeLink: "https://nealife.in/",
+    websiteLink: "https://nealife.in/",
+  },
+  {
+    name: "Pal Property",
+    description:
+      "An Angular-based real estate platform with dynamic listings, backend API integration, and responsive UI, enabling users to browse, list, and manage properties effortlessly and efficiently.",
+    tags: [
+      { name: "Angular", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+    ],
+    image: pal,
+    sourceCodeLink: "",
+    websiteLink: "https://nealife.in/",
   },
   {
     name: "Edict",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A document management tool for professionals like CAs, enabling easy document collection, automated reminders, deadline tracking, and seamless client communication for improved productivity.",
     tags: [
-      {
-        name: "Node",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Postman",
-        color: "pink-text-gradient",
-      },
+      { name: "Node", color: "blue-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Postman", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-    websiteLink: "",
+    image: edict,
+    sourceCodeLink: "https://edictapp.com/",
+    websiteLink: "https://edictapp.com/",
   },
   {
     name: "Paintlib",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Node-based e-commerce platform for buying and renting paint, offering user-friendly navigation, secure orders, and diverse product categories for residential and commercial use.",
     tags: [
-      {
-        name: "Node",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Postman",
-        color: "pink-text-gradient",
-      },
+      { name: "Node", color: "blue-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Postman", color: "pink-text-gradient" },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
-    websiteLink: "",
+    sourceCodeLink: "https://paintlib.in/",
+    websiteLink: "https://paintlib.in/",
   },
-    {
+  {
     name: "Vrukshathon",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A PHP-powered event site promoting eco-conscious marathons and green drives, encouraging fitness, sustainability, and community awareness through partnerships with local organizations in Pune.",
     tags: [
-      {
-        name: "Html+CSS+PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQL+PhpMyAdmin",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Hostinger",
-        color: "pink-text-gradient",
-      },
+      { name: "PHP", color: "blue-text-gradient" },
+      { name: "PhpMyAdmin", color: "green-text-gradient" },
+      { name: "Hostinger", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "",
+    image: vrukshthon,
+    sourceCodeLink: "https://www.vrukshathon.com/",
     websiteLink: "https://www.vrukshathon.com/",
   },
-    {
-    name: "Ishika Farms",
+  {
+    name: "Ishka Farms",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A e-commerce site featuring caper-based organic products, combining traditional practices with artisanal quality across categories like caperberries, spice mixes, and salt-preserved flowers.",
     tags: [
-      {
-        name: "Wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "EcommerceWebsite",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Hostinger",
-        color: "pink-text-gradient",
-      },
+      { name: "Wordpress", color: "blue-text-gradient" },
+      { name: "EcommerceWebsite", color: "green-text-gradient" },
+      { name: "Hostinger", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "",
+    image: ishka,
+    sourceCodeLink: "https://ishkafarms.com/",
     websiteLink: "https://ishkafarms.com/",
   },
-      {
-    name: "Diya Fresh",
+  {
+    name: "Diya Fresh (Admin Panel)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An admin dashboard for Diya Fresh that streamlines inventory, user management, and order tracking for a farm-to-home grocery delivery service of fresh and organic produce.",
     tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Admin-Panel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Hostinger",
-        color: "pink-text-gradient",
-      },
+      { name: "PHP", color: "blue-text-gradient" },
+      { name: "AdminPanel", color: "green-text-gradient" },
+      { name: "Hostinger", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "",
-    websiteLink: "https://diyaafresh.com/",
+    image: diya,
+    sourceCodeLink: "https://admin.diyaafresh.com/",
+    websiteLink: "https://admin.diyaafresh.com/",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
