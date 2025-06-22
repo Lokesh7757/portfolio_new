@@ -62,11 +62,11 @@ const Experience = () => {
       <Header useMotion={true} {...config.sections.experience} />
 
       {/* ✅ Add Download CV button here */}
-      <div className="mt-4 flex justify-end pr-4">
+      <div className="mt-4 flex justify-center pr-4">
         <a
           href="/Lokesh_Khankari.pdf"
           download
-          className="rounded-md bg-[#915EFF] px-6 py-2 text-white transition hover:bg-[#7c4dff]"
+          className="rounded-md bg-[#5fae1a] px-6 py-2 text-white transition hover:bg-[#ff4d4d]"
         >
           Download CV
         </a>

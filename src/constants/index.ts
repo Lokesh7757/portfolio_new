@@ -32,7 +32,7 @@ import {
   tripguide,
   edict,
   vrukshthon,
-  diya,
+  // diya,
   // threejs,
   ishka,
   pal,
@@ -296,19 +296,19 @@ const projects: TProject[] = [
     sourceCodeLink: "https://ishkafarms.com/",
     websiteLink: "https://ishkafarms.com/",
   },
-  {
-    name: "Diya Fresh (Admin Panel)",
-    description:
-      "An admin dashboard for Diya Fresh that streamlines inventory, user management, and order tracking for a farm-to-home grocery delivery service of fresh and organic produce.",
-    tags: [
-      { name: "PHP", color: "blue-text-gradient" },
-      { name: "AdminPanel", color: "green-text-gradient" },
-      { name: "Hostinger", color: "pink-text-gradient" },
-    ],
-    image: diya,
-    sourceCodeLink: "https://admin.diyaafresh.com/",
-    websiteLink: "https://admin.diyaafresh.com/",
-  },
+  // {
+  //   name: "Diya Fresh (Admin Panel)",
+  //   description:
+  //     "An admin dashboard for Diya Fresh that streamlines inventory, user management, and order tracking for a farm-to-home grocery delivery service of fresh and organic produce.",
+  //   tags: [
+  //     { name: "PHP", color: "blue-text-gradient" },
+  //     { name: "AdminPanel", color: "green-text-gradient" },
+  //     { name: "Hostinger", color: "pink-text-gradient" },
+  //   ],
+  //   image: diya,
+  //   sourceCodeLink: "https://admin.diyaafresh.com/",
+  //   websiteLink: "https://admin.diyaafresh.com/",
+  // },
 ];
 
 
