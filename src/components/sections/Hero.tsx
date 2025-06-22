@@ -4,6 +4,7 @@ import { styles } from "../../constants/styles";
 import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
 
+
 const Hero = () => {
   return (
     <section className={`relative mx-auto h-screen w-full`}>

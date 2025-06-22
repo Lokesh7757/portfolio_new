@@ -61,7 +61,18 @@ const Experience = () => {
     <>
       <Header useMotion={true} {...config.sections.experience} />
 
-      <div className="mt-20 flex flex-col">
+      {/* ✅ Add Download CV button here */}
+      <div className="mt-4 flex justify-end pr-4">
+        <a
+          href="/Lokesh_Khankari.pdf"
+          download
+          className="rounded-md bg-[#915EFF] px-6 py-2 text-white transition hover:bg-[#7c4dff]"
+        >
+          Download CV
+        </a>
+      </div>
+
+      <div className="mt-10 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
@@ -71,5 +82,6 @@ const Experience = () => {
     </>
   );
 };
+
 
 export default SectionWrapper(Experience, "work");
