@@ -30,7 +30,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import edict from "./tech/Edict.png";
+import edict from "./tech/edict.png";
 import vrukshthon from "./vrukshthon.png";
 import diya from "./diya.png";
 import ishka from "./ishka.png";
