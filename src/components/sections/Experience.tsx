@@ -61,7 +61,7 @@ const Experience = () => {
     <>
       <Header useMotion={true} {...config.sections.experience} />
 
-      {/* ✅ Add Download CV button here */}
+      {/* ✅ Add Download CV button here
       <div className="mt-4 flex justify-center pr-4">
         <a
           href="/Lokesh_Khankari.pdf"
@@ -70,7 +70,7 @@ const Experience = () => {
         >
           Download CV
         </a>
-      </div>
+      </div> */}
 
       <div className="mt-10 flex flex-col">
         <VerticalTimeline>

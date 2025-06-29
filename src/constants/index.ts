@@ -56,19 +56,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Full Stack Developer",
+    title: "Modern Web Solutions Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Engineer – Angular & React Expert",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Engineer – API & System Integrator",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Cloud-Ready Developer",
     icon: creator,
   },
 ];
@@ -178,7 +178,6 @@ const experiences: TExperience[] = [
   points: [
     "Designed and developed full-stack web applications using Node.js, Express.js, React.js, and Angular.js.",
     "Completed dynamic freelance projects such as Paintlib, Edict App, NeaLife, MyVisCards, and Wanderlog.",
-    "Built PHP-based platforms like Vrukshathon (with admin), Vkasa, and Cotation Manager, optimizing backend workflows.",
     "Developed static websites using HTML, CSS, and JavaScript including Construction and Buidling Wesbites.",
     "Delivered customized WordPress sites such as Borcells Solar and Ecommerce, focusing on SEO and responsiveness.",
     "Integrated RESTful APIs, managed databases using MongoDB and MySQL, and deployed projects to AWS and other cloud platforms.",

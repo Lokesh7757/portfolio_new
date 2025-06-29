@@ -72,6 +72,7 @@ p: ["Ideate Create Release."]  },
       create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Let's work together to bring your ideas to life!`,
     },
+    
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
