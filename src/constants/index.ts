@@ -240,8 +240,8 @@ const projects: TProject[] = [
       { name: "MongoDB", color: "pink-text-gradient" },
     ],
     image: pal,
-    sourceCodeLink: "",
-    websiteLink: "https://nealife.in/",
+    sourceCodeLink: "https://palproperties.co/",
+    websiteLink: "https://palproperties.co/",
   },
   {
     name: "Edict",
