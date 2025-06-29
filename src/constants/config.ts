@@ -66,7 +66,7 @@ p: ["Ideate Create Release."]  },
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
+      content: `I'm Lokesh Khankari, a skilled software developer with experience in TypeScript and
       JavaScript, and expertise in frameworks like Angular, Node, and
       React. I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
