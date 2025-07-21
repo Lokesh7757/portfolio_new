@@ -130,7 +130,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
 {
-  title: "Software Developer Intern",
+  title: "Jr. Software Developer",
   companyName: "Proser Digital Solutions",
   icon: starbucks,
   iconBg: "#383E56",
@@ -204,14 +204,14 @@ const testimonials: TTestimonial[] = [
     testimonial:
       "While working on Edict, I discovered how automating document flows can dramatically improve efficiency for professionals like CAs and consultants. Automation is the future",
     name: "Lokesh Khankari",
-    designation: "Ass. Software Developer",
+    designation: "Jr. Software Developer",
     company: "Proser Digital Solutions",
   },
   {
     testimonial:
       "Building Nealife was a unique experience where psychology met technology, project taught me the value of user-centered design and performance optimization.",
     name: "Lokesh Khankari",
-    designation: "Ass. Software Developer",
+    designation: "Jr. Software Developer",
     company: "Proser Digital Solutions",
   },
 ];
