@@ -84,7 +84,7 @@ const About = () => {
 
         {/* Download CV Button */}
         <a
-          href="/Lokesh_Khankari.pdf"
+          href="/portfolio_new/src/assets/Lokesh_Khankari.pdf"
           download
           className="inline-flex items-center gap-2 rounded-lg bg-green-700 px-5 py-2 text-white shadow-md transition hover:bg-blue-700"
         >
