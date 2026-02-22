@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { github, websitelink } from "../../assets";
+import { /* github, */ websitelink } from "../../assets";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
@@ -15,11 +15,16 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   description,
   tags,
   image,
-  sourceCodeLink,
+  // sourceCodeLink,
   websiteLink,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.1 }}
+      variants={fadeIn("up", "spring", (index % 3) * 0.15, 0.75)}
+    >
       <Tilt
         glareEnable
         tiltEnable
@@ -35,7 +40,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
               className="h-full w-full rounded-2xl object-cover object-top transition-transform duration-500 hover:scale-105"
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end gap-2">
-              <div
+              {/* <div
                 onClick={() => window.open(sourceCodeLink, "_blank")}
                 className="black-gradient flex h-8 w-8 sm:h-10 sm:w-10 cursor-pointer items-center justify-center rounded-full opacity-80 hover:opacity-100 transition-opacity duration-200"
               >
@@ -44,7 +49,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                   alt="source code"
                   className="h-1/2 w-1/2 object-contain"
                 />
-              </div>
+              </div> */}
               {websiteLink && (
                 <div
                   onClick={() => window.open(websiteLink, "_blank")}
@@ -83,6 +88,9 @@ const Works = () => {
 
       <div className="flex w-full">
         <motion.p
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.5 }}
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary mt-3 max-w-3xl text-[14px] sm:text-[17px] leading-[24px] sm:leading-[30px]"
         >
