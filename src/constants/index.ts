@@ -28,15 +28,16 @@ import {
   starbucks,
   // tesla,
   // shopify,
-  carrent,
   tripguide,
   edict,
-  vrukshthon,
-  // diya,
   // threejs,
-  ishka,
-  pal,
-
+  nealife,
+  palProperty,
+  avtechScreenshot,
+  sereneScreenshot,
+  networkingScreenshot,
+  vrukshathonScreenshot,
+  btbScreenshot,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -129,19 +130,19 @@ const technologies: TTechnology[] = [
 ];
 
 const experiences: TExperience[] = [
-{
-  title: "Jr. Software Developer",
-  companyName: "Proser Digital Solutions",
-  icon: starbucks,
-  iconBg: "#383E56",
-  date: "December 2024 – Present",
-  points: [
-    "Developed and optimized backend systems using Node.js, Express.js, and MongoDB for efficient API integration and data handling.",
-    "Built responsive frontend modules using Angular.js and React.js, enhancing user experience and UI performance.",
-    "Managed AWS infrastructure including EC2, S3, and Lambda for scalable cloud deployment.",
-    "Collaborated in Agile teams using tools like Jira, Bitbucket, and Postman to deliver high-quality software solutions."
-  ],
-},
+  {
+    title: "Jr. Software Developer",
+    companyName: "Proser Digital Solutions",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "December 2024 – Present",
+    points: [
+      "Developed and optimized backend systems using Node.js, Express.js, and MongoDB for efficient API integration and data handling.",
+      "Built responsive frontend modules using Angular.js and React.js, enhancing user experience and UI performance.",
+      "Managed AWS infrastructure including EC2, S3, and Lambda for scalable cloud deployment.",
+      "Collaborated in Agile teams using tools like Jira, Bitbucket, and Postman to deliver high-quality software solutions."
+    ],
+  },
 
   // {
   //   title: "React Native Developer",
@@ -169,20 +170,20 @@ const experiences: TExperience[] = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-{
-  title: "Full Stack Developer",
-  companyName: "Freelancer",
-  icon: meta, // Replace with the actual icon reference if available
-  iconBg: "#E6DEDD",
-  date: "April 2023 – Present",
-  points: [
-    "Designed and developed full-stack web applications using Node.js, Express.js, React.js, and Angular.js.",
-    "Completed dynamic freelance projects such as Paintlib, Edict App, NeaLife, MyVisCards, and Wanderlog.",
-    "Developed static websites using HTML, CSS, and JavaScript including Construction and Buidling Wesbites.",
-    "Delivered customized WordPress sites such as Borcells Solar and Ecommerce, focusing on SEO and responsiveness.",
-    "Integrated RESTful APIs, managed databases using MongoDB and MySQL, and deployed projects to AWS and other cloud platforms.",
-  ],
-}
+  {
+    title: "Full Stack Developer",
+    companyName: "Freelancer",
+    icon: meta, // Replace with the actual icon reference if available
+    iconBg: "#E6DEDD",
+    date: "April 2023 – Present",
+    points: [
+      "Designed and developed full-stack web applications using Node.js, Express.js, React.js, and Angular.js.",
+      "Completed dynamic freelance projects such as Paintlib, Edict App, NeaLife, MyVisCards, and Wanderlog.",
+      "Developed static websites using HTML, CSS, and JavaScript including Construction and Buidling Wesbites.",
+      "Delivered customized WordPress sites such as Borcells Solar and Ecommerce, focusing on SEO and responsiveness.",
+      "Integrated RESTful APIs, managed databases using MongoDB and MySQL, and deployed projects to AWS and other cloud platforms.",
+    ],
+  }
 ];
 
 const testimonials: TTestimonial[] = [
@@ -226,7 +227,7 @@ const projects: TProject[] = [
       { name: "CSS 3", color: "green-text-gradient" },
       { name: "Bootstrap", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: nealife,
     sourceCodeLink: "https://nealife.in/",
     websiteLink: "https://nealife.in/",
   },
@@ -239,14 +240,14 @@ const projects: TProject[] = [
       { name: "NodeJs", color: "green-text-gradient" },
       { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: pal,
-    sourceCodeLink: "https://palproperties.co/",
-    websiteLink: "https://palproperties.co/",
+    image: palProperty,
+    sourceCodeLink: "https://www.palrealtyventures.com/home",
+    websiteLink: "https://www.palrealtyventures.com/home",
   },
   {
     name: "Edict",
     description:
-      "A document management tool for professionals like CAs, enabling easy document collection, automated reminders, deadline tracking, and seamless client communication for improved productivity.",
+      "An AI-powered workflow automation platform for CAs and consultants, featuring intelligent document collection, smart reminders, automated deadline tracking, and AI-driven client communication to streamline professional workflows.",
     tags: [
       { name: "Node", color: "blue-text-gradient" },
       { name: "MongoDB", color: "green-text-gradient" },
@@ -278,22 +279,60 @@ const projects: TProject[] = [
       { name: "PhpMyAdmin", color: "green-text-gradient" },
       { name: "Hostinger", color: "pink-text-gradient" },
     ],
-    image: vrukshthon,
+    image: vrukshathonScreenshot,
     sourceCodeLink: "https://www.vrukshathon.com/",
     websiteLink: "https://www.vrukshathon.com/",
   },
   {
-    name: "Ishka Farms",
+    name: "Behind the Build (BTB)",
     description:
-      "A e-commerce site featuring caper-based organic products, combining traditional practices with artisanal quality across categories like caperberries, spice mixes, and salt-preserved flowers.",
+      "A premier innovation showcase platform engineered for high-impact events. It enables real-time project spotlights, seamless participant registration, and dynamic live voting for industry-leading talent and student innovators.",
     tags: [
-      { name: "Wordpress", color: "blue-text-gradient" },
-      { name: "EcommerceWebsite", color: "green-text-gradient" },
-      { name: "Hostinger", color: "pink-text-gradient" },
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: ishka,
-    sourceCodeLink: "https://ishkafarms.com/",
-    websiteLink: "https://ishkafarms.com/",
+    image: btbScreenshot,
+    sourceCodeLink: "https://btb-eight.vercel.app/",
+    websiteLink: "https://btb-eight.vercel.app/",
+  },
+  {
+    name: "Networking Site",
+    description:
+      "A comprehensive professional ecosystem designed for strategic business partnerships. The platform facilitates secure authentication, profile management, and targeted networking to accelerate collaborative opportunities.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+    ],
+    image: networkingScreenshot,
+    sourceCodeLink: "https://networking-site.netlify.app/",
+    websiteLink: "https://networking-site.netlify.app/",
+  },
+  {
+    name: "Avtech Solutions",
+    description:
+      "A dedicated corporate portal for AVTECH Solutions, delivering an integrated suite of enterprise IT products and services designed to optimize business efficiency and technological growth.",
+    tags: [
+      { name: "HTML/CSS", color: "blue-text-gradient" },
+      { name: "Bootstrap", color: "green-text-gradient" },
+    ],
+    image: avtechScreenshot,
+    sourceCodeLink: "https://www.avtechsolutions.co.in/",
+    websiteLink: "https://www.avtechsolutions.co.in/",
+  },
+  {
+    name: "Serene Buildcon",
+    description:
+      "A professional construction and real estate platform showcasing modern architectural projects. Features a responsive design tailored for premium property listings and builder-client engagement.",
+    tags: [
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "Bootstrap", color: "pink-text-gradient" },
+    ],
+    image: sereneScreenshot,
+    sourceCodeLink: "https://serenebuildcon.com/",
+    websiteLink: "https://serenebuildcon.com/",
   },
   // {
   //   name: "Diya Fresh (Admin Panel)",

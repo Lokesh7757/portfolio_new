@@ -36,6 +36,15 @@ import diya from "./diya.png";
 import ishka from "./ishka.png";
 import pal from "./pal.png";
 
+// Live website screenshots
+import nealife from "./nealife.png";
+import palProperty from "./pal_property.png";
+import avtechScreenshot from "./avtech.png";
+import sereneScreenshot from "./serene.png";
+import networkingScreenshot from "./networking.png";
+import vrukshathonScreenshot from "./vrukshathon.png";
+import btbScreenshot from "./btb.png";
+
 export {
   logo,
   backend,
@@ -71,4 +80,11 @@ export {
   diya,
   ishka,
   pal,
+  nealife,
+  palProperty,
+  avtechScreenshot,
+  sereneScreenshot,
+  networkingScreenshot,
+  vrukshathonScreenshot,
+  btbScreenshot,
 };
